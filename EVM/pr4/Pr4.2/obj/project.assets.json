@@ -1050,11 +1050,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\79324\\Desktop\\pr4\\Pr4.2\\Pr4.2.csproj",
+      "projectUniqueName": "C:\\Users\\79324\\Documents\\GitHub\\University\\EVM\\pr4\\Pr4.2\\Pr4.2.csproj",
       "projectName": "Pr4.2",
-      "projectPath": "C:\\Users\\79324\\Desktop\\pr4\\Pr4.2\\Pr4.2.csproj",
+      "projectPath": "C:\\Users\\79324\\Documents\\GitHub\\University\\EVM\\pr4\\Pr4.2\\Pr4.2.csproj",
       "packagesPath": "C:\\Users\\79324\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\79324\\Desktop\\pr4\\Pr4.2\\obj\\",
+      "outputPath": "C:\\Users\\79324\\Documents\\GitHub\\University\\EVM\\pr4\\Pr4.2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\79324\\AppData\\Roaming\\NuGet\\NuGet.Config",

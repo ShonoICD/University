@@ -37,7 +37,7 @@ if (DeviceHelper.GetIna219Devices() is [I2cConnectionSettings settings])
         state: null, dueTime: TimeSpan.Zero, period: TimeSpan.FromSeconds(10)
     );
 
-    Thread.Sleep(60000);
+    await Task.Delay(60000);
     t.Dispose();
 
     controller.Write(pin, PinValue.Low);
