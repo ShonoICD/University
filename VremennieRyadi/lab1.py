@@ -1,28 +1,53 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from statsmodels.tsa.stattools import adfuller
+import seaborn as sns
 
-# Создаем dataset с данными о продажах
-data = {'Дата': ['2023-01-01', '2023-02-01', '2023-03-01', '2023-04-01', '2023-05-01'],
-        'Продажи': [1000, 1200, 1300, 1100, 1400]}
+df = pd.read_csv('EuStockMarkets.csv')
 
-df = pd.DataFrame(data)
+# x_values = df['rownames']
+DAX_values = df['DAX']
+SMI_values = df['SMI']
+CAC_values = df['CAC']
+FTSE_values = df['FTSE']
 
-# Преобразуем столбец 'Дата' в формат даты
-df['Дата'] = pd.to_datetime(df['Дата'])
+plt.plot(DAX_values, color='blue', label='DAX')
+plt.plot(SMI_values, color='red', label='SMI')
+plt.plot(CAC_values, color='green', label='CAC')
+plt.plot(FTSE_values, color='orange', label='FTSE')
 
-# Построим график продаж
-plt.plot(df['Дата'], df['Продажи'])
-plt.title('Продажи в магазине МВидео')
-plt.xlabel('Дата')
-plt.ylabel('Продажи')
+plt.legend()
+
+plt.title('График')
+plt.xlabel('количество дней')
+plt.ylabel('данные')
+plt.grid(True)  # Добавление сетки
+
+int_columns = ['CAC', 'DAX', 'FTSE', 'SMI']
+
+correlation_matrix = df[int_columns].corr()
+plt.figure(figsize=(10, 8))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
+plt.title('Корреляционная матрица')
+
+means = df[int_columns].mean()
+variances = df[int_columns].var()
+
+# Построение гистограммы средних значений
+plt.figure(figsize=(10, 5))
+plt.bar(means.index, means.values, color='blue')
+plt.xlabel('Столбцы')
+plt.ylabel('Среднее значение')
+plt.title('Средние значения столбцов')
+plt.xticks(rotation=45)
+
+# Построение гистограммы дисперсий
+plt.figure(figsize=(10, 5))
+plt.bar(variances.index, variances.values, color='red')
+plt.xlabel('Столбцы')
+plt.ylabel('Дисперсия')
+plt.title('Дисперсии столбцов')
+plt.xticks(rotation=45)
+
+
+
 plt.show()
-
-# Проведем тест Дики-Фуллера на стационарность
-result = adfuller(df['Продажи'])
-
-print('ADF Statistic: %f' % result[0])
-print('p-value: %f' % result[1])
-print('Critical Values:')
-for key, value in result[4].items():
-    print('\t%s: %.3f' % (key, value))
