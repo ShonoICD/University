@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RgQCVue+sxCWFysfsNgnoN+mD1EtMcgQvLq33ThhPzxnNZJf13rvYKPQkMy1YP4Pl3TGsg66mBgxnISDbP2gZA==",
+  "dgSpecHash": "V+nUJnHMPBUDAjHWkcL5+qtoqq9M3NCNfW1ypCIhcDaFeQ1YcTiPWONHUZ3GFqQlqx0M3MJYrCvJrVjc4tVxmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\79324\\Documents\\GitHub\\University\\EVM\\pr4\\Pr4\\Pr4.csproj",
+  "projectFilePath": "C:\\Users\\79324\\Desktop\\University\\EVM\\pr4\\Pr4\\Pr4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\79324\\.nuget\\packages\\iot.device.bindings\\3.0.0\\iot.device.bindings.3.0.0.nupkg.sha512",
     "C:\\Users\\79324\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
