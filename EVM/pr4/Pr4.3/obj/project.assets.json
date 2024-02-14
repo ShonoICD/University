@@ -15,11 +15,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Danny\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
       "projectName": "Pr4.3",
       "projectPath": "C:\\Users\\Danny\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
       "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Danny\\Desktop\\University\\EVM\\pr4\\Pr4.3\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\79324\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
+      "projectName": "Pr4.3",
+      "projectPath": "C:\\Users\\79324\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
+      "packagesPath": "C:\\Users\\79324\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\79324\\Desktop\\University\\EVM\\pr4\\Pr4.3\\obj\\",
+>>>>>>> eb80d3b932061d261886cba69444209cb2325df0
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",

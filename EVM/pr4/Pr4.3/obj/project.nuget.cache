@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "1uC6Yr6zn+XbcnmEtDrivQoOzZ5+pRFmiC4YVDRNCyY7fI50FSz95FG2vscjHG/RA22aziSRmKp3QgWlaEND+g==",
   "success": false,
   "projectFilePath": "C:\\Users\\Danny\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
+=======
+  "dgSpecHash": "qHVzG35BSDNV/PgunGRpPDTtFZ6g5gPPOIuomnkgBMOrXGQBcP8pG4qplN3vhi+jCNSz+jtFD2tkAAfcphyzMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\79324\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
+>>>>>>> eb80d3b932061d261886cba69444209cb2325df0
   "expectedPackageFiles": [
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "C:\\Users\\Danny\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
