@@ -1,31 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "vbtJUE5fiPb75b0quC6UIEQdgvvBpqB/uukYh+Odglpxdl2L1/rPLnDlZDae9BRVIN9VZ/1DB9QsZO6640remw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\79324\\Documents\\GitHub\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
+  "dgSpecHash": "1uC6Yr6zn+XbcnmEtDrivQoOzZ5+pRFmiC4YVDRNCyY7fI50FSz95FG2vscjHG/RA22aziSRmKp3QgWlaEND+g==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Danny\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\79324\\.nuget\\packages\\iot.device.bindings\\3.0.0\\iot.device.bindings.3.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\raven.iot.device.bindings\\1.0.0\\raven.iot.device.bindings.1.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\5.0.0\\runtime.linux-arm.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\5.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\5.0.0\\runtime.linux-x64.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\runtime.native.system.io.ports\\5.0.1\\runtime.native.system.io.ports.5.0.1.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\5.0.0\\runtime.osx-x64.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\system.device.gpio\\3.0.0\\system.device.gpio.3.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\system.io.ports\\5.0.1\\system.io.ports.5.0.1.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\system.management\\5.0.0\\system.management.5.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\system.text.json\\6.0.1\\system.text.json.6.0.1.nupkg.sha512",
-    "C:\\Users\\79324\\.nuget\\packages\\unitsnet\\5.1.0\\unitsnet.5.1.0.nupkg.sha512"
+    "C:\\Users\\Danny\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Danny\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Danny\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Danny\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Raven.Iot.Device.Bindings. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Raven.Iot.Device.Bindings",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

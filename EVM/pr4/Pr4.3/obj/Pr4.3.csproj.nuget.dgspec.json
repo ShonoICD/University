@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\79324\\Documents\\GitHub\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj": {}
+    "C:\\Users\\Danny\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\79324\\Documents\\GitHub\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj": {
+    "C:\\Users\\Danny\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\79324\\Documents\\GitHub\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
+        "projectUniqueName": "C:\\Users\\Danny\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
         "projectName": "Pr4.3",
-        "projectPath": "C:\\Users\\79324\\Documents\\GitHub\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
-        "packagesPath": "C:\\Users\\79324\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\79324\\Documents\\GitHub\\University\\EVM\\pr4\\Pr4.3\\obj\\",
+        "projectPath": "C:\\Users\\Danny\\Desktop\\University\\EVM\\pr4\\Pr4.3\\Pr4.3.csproj",
+        "packagesPath": "C:\\Users\\Danny\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danny\\Desktop\\University\\EVM\\pr4\\Pr4.3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\79324\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Danny\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\nugets": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,6 +56,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
